@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #090d16;
+    --bg-secondary: #0f172a;
+    --bg-card: rgba(15, 23, 42, 0.75);
+    --border-color: rgba(255, 255, 255, 0.08);
+    --accent-green: #00A86B;
+    --accent-red: #E11D48;
+    --text-primary: #F8FAFC;
+    --text-muted: #94A3B8;
+  }
+}
+
+body {
+  background-color: #070a12;
+  color: #f1f5f9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hind Siliguri', 'Tiro Bangla', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(0, 168, 107, 0.08) 0px, transparent 50%),
+    radial-gradient(at 90% 20%, rgba(225, 29, 72, 0.06) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, rgba(14, 165, 233, 0.05) 0px, transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-panel-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(24, 34, 60, 0.85);
+  border-color: rgba(0, 168, 107, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px -10px rgba(0, 168, 107, 0.15);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Carbon fiber texture simulation */
+.texture-carbon {
+  background-color: #151517;
+  background-image: 
+    linear-gradient(45deg, #1f1f23 25%, transparent 25%), 
+    linear-gradient(-45deg, #1f1f23 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #1f1f23 75%), 
+    linear-gradient(-45deg, transparent 75%, #1f1f23 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+}
+
+/* Print CSS */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

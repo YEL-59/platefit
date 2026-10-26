@@ -1,0 +1,158 @@
+{
+  "bikeSafety": {
+    "titleEn": "Motorcycle & Scooter Safety Handbook",
+    "titleBn": "মোটরসাইকেল ও স্কুটার নিরাপদ চালনা নির্দেশিকা",
+    "guidelines": [
+      {
+        "id": "helmet",
+        "titleEn": "Certified Helmet Standards",
+        "titleBn": "মানসম্মত হেলমেট পরিধানের বাধ্যবাধকতা",
+        "summaryEn": "Both rider and pillion passenger must wear certified helmets (BSTI, DOT, or ECE 22.05/22.06). Half-helmets or construction-style helmets offer zero impact protection.",
+        "summaryBn": "চালক ও সহযাত্রী (পিলিয়ন) উভয়ের জন্যই BSTI, DOT বা ECE সার্টিফাইড ফুল-ফেস হেলমেট পরা বাধ্যতামূলক। খোলা বা খেলনা হেলমেটে কোনো নিরাপত্তা থাকে না।",
+        "tipsEn": [
+          "Ensure chin strap is securely fastened with a snug two-finger clearance.",
+          "Clear visors are mandatory for night riding; avoid tinted visors after sunset.",
+          "Replace helmet immediately after any high-impact drop or after 5 years."
+        ],
+        "tipsBn": [
+          "স্ট্র্যাপ সবসময় শক্তভাবে আটকে রাখুন (চিবুকের নিচে দুই আঙুল ফাঁকা থাকবে)।",
+          "রাতের বেলায় কখনোই টিন্টেড (কালো) ভাইজর ব্যবহার করবেন না, ক্লিয়ার ভাইজর রাখুন।",
+          "কোনো বড় দুর্ঘটনার পর বা ৫ বছর পর হেলমেট পরিবর্তন করুন।"
+        ],
+        "icon": "ShieldCheck"
+      },
+      {
+        "id": "defensive_riding",
+        "titleEn": "Defensive Riding & Blind Spots",
+        "titleBn": "ডিফেন্সিভ রাইডিং ও ব্লাইন্ড স্পট সতর্কতা",
+        "summaryEn": "Buses, covered vans, and trucks have massive blind spots where two-wheelers become invisible. Never hover beside large commercial vehicles.",
+        "summaryBn": "বাস, কাভার্ড ভ্যান ও ট্রাকের বড় ব্লাইন্ড স্পট থাকে যেখানে বাইক চালক সম্পূর্ণ অদৃশ্য হয়ে যায়। বড় গাড়ির ঠিক পাশে দীর্ঘক্ষণ থাকবেন না।",
+        "tipsEn": [
+          "If you cannot see the truck driver's side mirror, the driver cannot see you.",
+          "Maintain a minimum 3-second braking buffer behind moving traffic.",
+          "Keep headlight on low-beam during twilight, rain, and highway riding (AHO)."
+        ],
+        "tipsBn": [
+          "ট্রাকের লুকিং গ্লাসে চালকের চোখ দেখতে না পেলে চালকও আপনাকে দেখতে পাচ্ছে না।",
+          "সামনের গাড়ি থেকে অন্তত ৩ সেকেন্ডের নিরাপদ ব্রেকিং দূরত্ব বজায় রাখুন।",
+          "দিনের বেলাতেও মহাসড়কে সবসময় লো-বিম হেডলাইট জ্বালিয়ে রাখুন (AHO)।"
+        ],
+        "icon": "Eye"
+      },
+      {
+        "id": "monsoon_wet",
+        "titleEn": "Monsoon & Rain Hazards in Bangladesh",
+        "titleBn": "বর্ষাকাল ও ভেজা রাস্তায় ঝুঁকি নিয়ন্ত্রণ",
+        "summaryEn": "Rain turns road dust and oil leakage into an invisible skid layer. Painted white/yellow lane markers and metal expansion joints become frictionless when wet.",
+        "summaryBn": "বৃষ্টির শুরুতে তেলের আস্তরণ ও ধুলাবালি মিলে রাস্তা পিচ্ছিল হয়ে যায়। রাস্তার জেব্রা ক্রসিং ও সাদা দাগের উপর ব্রেক করলে চাকা তাৎক্ষণিক স্কিড করে।",
+        "tipsEn": [
+          "Avoid heavy front brake application while leaned into turns on wet asphalt.",
+          "Maintain tire tread depth above 2.0 mm; bald tires cause instant hydroplaning.",
+          "Exercise extreme caution over manhole covers, railway crossings, and brick road sections."
+        ],
+        "tipsBn": [
+          "ভেজা রাস্তায় কর্নারিং করার সময় সামনের হার্ড ব্রেক ধরা পরিহার করুন।",
+          "টায়ারের গ্রিপ চেক করুন; ক্ষয়প্রাপ্ত টায়ারে পানি নিষ্কাশন না হয়ে চাকা স্লিপ করে।",
+          "ম্যানহোলের ঢাকনা, রেললাইন ও ইটের রাস্তায় গতি একদম কমিয়ে চলুন।"
+        ],
+        "icon": "CloudRain"
+      },
+      {
+        "id": "pillion_safety",
+        "titleEn": "Pillion Safety & Loose Clothing Safeguards",
+        "titleBn": "পিলিয়ন নিরাপত্তা ও আলগা পোশাকের ঝুঁকি",
+        "summaryEn": "In Bangladesh, loose clothing (saree, orna/dupatta, long skirts, lungi) getting caught in the rear wheel or exposed drive chain is a major cause of fatal accidents.",
+        "summaryBn": "শাড়ি, ওড়না বা বোরকা পেছনের চাকা বা ড্রাইভ চেইনে আটকে যাওয়া বাংলাদেশে বড় দুর্ঘটনার অন্যতম কারণ।",
+        "tipsEn": [
+          "Mandatory Sari Guard & chain cover must be installed on your motorcycle.",
+          "Tuck loose clothing ends securely before mounting the bike.",
+          "The pillion must hold the rider's waist or grab rail, keep both feet on footpegs, and lean naturally with the motorcycle."
+        ],
+        "tipsBn": [
+          "বাইকে অবশ্যই শাড়ি গার্ড ও ফুল চেইন কভার নিশ্চিত করুন।",
+          "ওড়না বা শাড়ির আঁচল ভালো করে গুজে বসতে হবে যাতে চাকার কাছে না ঝোলে।",
+          "সহযাত্রী অবশ্যই গ্র্যাব রেইল ধরবেন এবং উভয় পা ফুটপেগে রাখবেন।"
+        ],
+        "icon": "AlertTriangle"
+      }
+    ]
+  },
+  "carSafety": {
+    "titleEn": "Private Car & Four-Wheeler Safety Guidelines",
+    "titleBn": "প্রাইভেট কার ও ফোর-হুইলার নিরাপত্তা নির্দেশিকা",
+    "guidelines": [
+      {
+        "id": "expressway_padma",
+        "titleEn": "Expressway & Bridge Protocols (Padma Bridge / Bangabandhu Tunnel)",
+        "titleBn": "এক্সপ্রেসওয়ে ও বড় সেতু প্রটোকল (পদ্মা সেতু / টানেল)",
+        "summaryEn": "Bangladesh Expressways require strict lane discipline. Stopping on bridges or expressways to take photos is both hazardous and legally punishable.",
+        "summaryBn": "এক্সপ্রেসওয়ে ও পদ্মা সেতুতে গাড়ি থামিয়ে ছবি বা সেলফি তোলা সম্পূর্ণ বেআইনি ও ঝুঁকিপূর্ণ। নির্ধারিত লেনে চলুন।",
+        "tipsEn": [
+          "Left lane is for regular driving; right lane is exclusively for active overtaking.",
+          "Do NOT turn on hazard blinkers while driving in normal rain or tunnels; hazards are only for completely stationary disabled vehicles.",
+          "Maintain at least a 50-meter gap from vehicles ahead at 80 km/h."
+        ],
+        "tipsBn": [
+          "বাম লেন স্বাভাবিক গতির জন্য; ডান লেন কেবল ওভারটেক করার জন্য।",
+          "বৃষ্টি বা টানেলে হ্যাজার্ড (দুই পাশের সিগন্যাল) জ্বালিয়ে গাড়ি চালাবেন না; এটি শুধু গাড়ি নষ্ট হয়ে গেলে ব্যবহার্য।",
+          "৮০ কিমি গতিতে সামনের গাড়ি থেকে অন্তত ৫০ মিটার দূরত্ব বজায় রাখুন।"
+        ],
+        "icon": "Car"
+      },
+      {
+        "id": "seatbelts_child",
+        "titleEn": "Seatbelts & Child Safety",
+        "titleBn": "সিটবেল্ট ও শিশু নিরাপত্তা",
+        "summaryEn": "Wearing a 3-point seatbelt reduces the risk of fatal injury by 45%. Rear seat passengers must also buckle up during highway transit.",
+        "summaryBn": "সিটবেল্ট ব্যবহার মৃত্যুর ঝুঁকি ৪৫% পর্যন্ত হ্রাস করে। চালক ও সামনের যাত্রী ছাড়াও পেছনের যাত্রীদেরও সিটবেল্ট ব্যবহার করা উচিত।",
+        "tipsEn": [
+          "Never seat children in the front passenger seat if an airbag is active.",
+          "Use ISOFIX child seats for infants and toddlers in the rear row.",
+          "Ensure door child locks are engaged when carrying young children."
+        ],
+        "tipsBn": [
+          "এয়ারব্যাগ যুক্ত গাড়িতে কখনোই শিশুকে সামনের আসনে বসাবেন না।",
+          "ছোট শিশুদের জন্য পেছনের সিটে চাইল্ড সেফটি সিট ব্যবহার করুন।",
+          "পেছনের দরজায় চাইল্ড লক নিশ্চিত করুন।"
+        ],
+        "icon": "Users"
+      },
+      {
+        "id": "highway_overtaking",
+        "titleEn": "National Highway Overtaking Protocol",
+        "titleBn": "মহাসড়কে ওভারটেকিংয়ের সঠিক নিয়ম",
+        "summaryEn": "Single-lane national highways (like sections of Dhaka-Sylhet) demand patience. Never overtake based on assumption or peer pressure.",
+        "summaryBn": "এক লেনের রাস্তায় ঝুঁকি নিয়ে ওভারটেক করা প্রাণঘাতী। অনুমান বা তাড়াহুড়া করে কখনো সামনে যাবেন না।",
+        "tipsEn": [
+          "Never overtake on blind bends, bridges, culverts, or ascending hill roads.",
+          "Signal early, check mirrors, flash high-beam, and ensure oncoming lane is completely clear for at least 300 meters.",
+          "Abort the overtake immediately if oncoming vehicle speeds up or flashes high beams."
+        ],
+        "tipsBn": [
+          "বাঁক, কালভার্ট, ব্রিজ বা পাহাড়ি ঢালে ওভারটেকিং কঠোরভাবে নিষিদ্ধ।",
+          "সিগন্যাল দিন, হাই-বিম ফ্ল্যাশ করে সামনের গাড়িকে সতর্ক করুন এবং বিপরীত লেনে অন্তত ৩০০ মিটার ফাঁকা জায়গা নিশ্চিত করুন।",
+          "সামনে কোনো সন্দেহ থাকলে ওভারটেক বাতিল করে নিজের লেনে ফিরে আসুন।"
+        ],
+        "icon": "Zap"
+      },
+      {
+        "id": "emergency_kit",
+        "titleEn": "Mandatory In-Car Emergency Kit",
+        "titleBn": "গাড়ির প্রয়োজনীয় জরুরি সরঞ্জাম",
+        "summaryEn": "Being stranded on a Bangladeshi highway at night can be dangerous without proper signaling tools.",
+        "summaryBn": "রাতে মহাসড়কে গাড়ি বিকল হলে সতর্কীকরণ সংকেত না থাকলে পেছন থেকে বড় দুর্ঘটনা ঘটতে পারে।",
+        "tipsEn": [
+          "Always carry a reflective red warning triangle (place 50m behind disabled vehicle).",
+          "Keep an inspected, operational 1kg dry chemical fire extinguisher.",
+          "Verify spare tire inflation and ensure functional jack and lug wrench are present before long journeys."
+        ],
+        "tipsBn": [
+          "গাড়িতে লাল রিফ্লেক্টিভ ট্রায়াঙ্গল রাখুন (গাড়ি নষ্ট হলে ৫০ মিটার পেছনে স্থাপন করুন)।",
+          "১ কেজি ড্রাই কেমিক্যাল ফায়ার এক্সটিংগুইশার গাড়িতে মজুত রাখুন।",
+          "দূরপাল্লার যাত্রার আগে স্পেয়ার চাকার হাওয়া এবং জ্যাক রেঞ্জ পরীক্ষা করুন।"
+        ],
+        "icon": "Tool"
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "actName": "Road Transport Act, 2018 (সড়ক পরিবহন আইন, ২০১৮)",
+  "rulesName": "Road Transport Rules, 2022 (সড়ক পরিবহন বিধিমালা, ২০২২)",
+  "speedLimits": {
+    "expressway": {
+      "nameEn": "Expressway (e.g., Dhaka-Mawa-Bhanga)",
+      "nameBn": "এক্সপ্রেসওয়ে (যেমন ঢাকা-মাওয়া-ভাঙ্গা)",
+      "privateCar": "80 km/h",
+      "motorcycle": "60 km/h (where permitted)",
+      "busMinibus": "70 km/h",
+      "truck": "50 km/h",
+      "notesEn": "Motorcycles must maintain lane discipline and adhere to toll regulations.",
+      "notesBn": "মোটরসাইকেল অবশ্যই নির্ধারিত লেনে চলতে হবে এবং নিয়ম মেনে টোল দিতে হবে।"
+    },
+    "nationalHighway": {
+      "nameEn": "National Highways (N1, N2, etc.)",
+      "nameBn": "জাতীয় মহাসড়ক (ঢাকা-চট্টগ্রাম, ঢাকা-সিলেট ইত্যাদি)",
+      "privateCar": "80 km/h",
+      "motorcycle": "50 km/h",
+      "busMinibus": "70 km/h",
+      "truck": "50 km/h",
+      "notesEn": "Overtaking on blind turns and bridges is strictly prohibited.",
+      "notesBn": "বাঁক ও সেতুর উপর ওভারটেকিং কঠোরভাবে নিষিদ্ধ।"
+    },
+    "regionalHighway": {
+      "nameEn": "Regional Highways & Zilla Roads",
+      "nameBn": "আঞ্চলিক মহাসড়ক ও জেলা সড়ক",
+      "privateCar": "60 km/h",
+      "motorcycle": "50 km/h",
+      "busMinibus": "50 km/h",
+      "truck": "45 km/h",
+      "notesEn": "Caution required at non-signalized intersections.",
+      "notesBn": "অনিবন্ধিত মোড় ও জংশনে গতি কমাতে হবে।"
+    },
+    "cityRoad": {
+      "nameEn": "City & Metropolitan Roads (Dhaka, CTG)",
+      "nameBn": "মেট্রোপলিটন ও শহর এলাকা (ঢাকা, চট্টগ্রাম ইত্যাদি)",
+      "privateCar": "40 km/h",
+      "motorcycle": "30 km/h",
+      "busMinibus": "35 km/h",
+      "truck": "30 km/h",
+      "notesEn": "Residential, school, and hospital zones have a strict 20 km/h limit.",
+      "notesBn": "আবাসিক এলাকা, বিদ্যালয় ও হাসপাতালের সামনে সর্বোচ্চ ২০ কিমি/ঘণ্টা।"
+    }
+  },
+  "fines": [
+    {
+      "id": "plate_violation",
+      "section": "Section 72",
+      "sectionBn": "ধারা ৭২",
+      "offenseEn": "Using unregistered vehicle, faulty/altered plate, or non-compliant front plate",
+      "offenseBn": "রেজিস্ট্রেশন ব্যতীত গাড়ি চালনা বা বিকৃত/অস্পষ্ট/ভুল মাপের নাম্বার প্লেট ব্যবহার",
+      "penaltyEn": "Fine up to ৳50,000 or up to 6 months imprisonment or both",
+      "penaltyBn": "অনধিক ৫০,০০০ টাকা অর্থদণ্ড বা অনধিক ৬ মাসের কারাদণ্ড বা উভয় দণ্ড",
+      "maxFine": 50000,
+      "category": "registration",
+      "demeritPoints": 1
+    },
+    {
+      "id": "driving_license",
+      "section": "Section 66",
+      "sectionBn": "ধারা ৬৬",
+      "offenseEn": "Driving without a valid driving license",
+      "offenseBn": "বৈধ ড্রাইভিং লাইসেন্স ছাড়া গাড়ি বা বাইক চালানো",
+      "penaltyEn": "Fine up to ৳25,000 or up to 6 months imprisonment or both",
+      "penaltyBn": "অনধিক ২৫,০০০ টাকা অর্থদণ্ড বা অনধিক ৬ মাসের কারাদণ্ড বা উভয় দণ্ড",
+      "maxFine": 25000,
+      "category": "license",
+      "demeritPoints": 1
+    },
+    {
+      "id": "helmet_violation",
+      "section": "Section 92(1)",
+      "sectionBn": "ধারা ৯২(১)",
+      "offenseEn": "Riding without certified helmet (applies to both rider and pillion passenger)",
+      "offenseBn": "রাইডার বা সহযাত্রী (পিলিয়ন) কর্তৃক মানসম্মত হেলমেট পরিধান না করা",
+      "penaltyEn": "Fine up to ৳10,000",
+      "penaltyBn": "অনধিক ১০,০০০ টাকা অর্থদণ্ড",
+      "maxFine": 10000,
+      "category": "safety",
+      "demeritPoints": 0
+    },
+    {
+      "id": "speeding",
+      "section": "Section 86",
+      "sectionBn": "ধারা ৮৬",
+      "offenseEn": "Exceeding prescribed speed limits (Highway or City)",
+      "offenseBn": "নির্ধারিত গতিসীমা লঙ্ঘন (ওভারস্পিডিং)",
+      "penaltyEn": "Fine up to ৳10,000 or up to 3 months imprisonment or both",
+      "penaltyBn": "অনধিক ১০,০০০ টাকা অর্থদণ্ড বা অনধিক ৩ মাসের কারাদণ্ড বা উভয় দণ্ড",
+      "maxFine": 10000,
+      "category": "speed",
+      "demeritPoints": 1
+    },
+    {
+      "id": "wrong_side",
+      "section": "Section 89",
+      "sectionBn": "ধারা ৮৯",
+      "offenseEn": "Driving on the wrong side (উল্টোপথে গাড়ি চালানো)",
+      "offenseBn": "উল্টোপথে গাড়ি বা বাইক চালানো",
+      "penaltyEn": "Fine up to ৳10,000",
+      "penaltyBn": "অনধিক ১০,০০০ টাকা অর্থদণ্ড",
+      "maxFine": 10000,
+      "category": "traffic_rules",
+      "demeritPoints": 1
+    },
+    {
+      "id": "mobile_phone",
+      "section": "Section 92(2)",
+      "sectionBn": "ধারা ৯২(২)",
+      "offenseEn": "Talking on a mobile phone or using handheld devices while driving",
+      "offenseBn": "গাড়ি বা বাইক চালানোর সময় মোবাইল ফোন ব্যবহার করা",
+      "penaltyEn": "Fine up to ৳5,000 or up to 1 month imprisonment or both",
+      "penaltyBn": "অনধিক ৫,০০০ টাকা অর্থদণ্ড বা অনধিক ১ মাসের কারাদণ্ড বা উভয় দণ্ড",
+      "maxFine": 5000,
+      "category": "safety",
+      "demeritPoints": 0
+    },
+    {
+      "id": "triple_riding",
+      "section": "Section 92",
+      "sectionBn": "ধারা ৯২",
+      "offenseEn": "More than one pillion passenger on a motorcycle (Triple Riding)",
+      "offenseBn": "মোটরসাইকেলে চালক ব্যতীত একজনের অধিক আরোহী বহন (ট্রিপল রাইডিং)",
+      "penaltyEn": "Fine up to ৳5,000",
+      "penaltyBn": "অনধিক ৫,০০০ টাকা অর্থদণ্ড",
+      "maxFine": 5000,
+      "category": "safety",
+      "demeritPoints": 0
+    },
+    {
+      "id": "seatbelt",
+      "section": "Section 92",
+      "sectionBn": "ধারা ৯২",
+      "offenseEn": "Driver or front passenger not wearing a seatbelt in motor vehicle",
+      "offenseBn": "মোটরযানের চালক বা সামনের যাত্রীর সিটবেল্ট না বাঁধা",
+      "penaltyEn": "Fine up to ৳5,000",
+      "penaltyBn": "অনধিক ৫,০০০ টাকা অর্থদণ্ড",
+      "maxFine": 5000,
+      "category": "safety",
+      "demeritPoints": 0
+    },
+    {
+      "id": "fitness_certificate",
+      "section": "Section 75",
+      "sectionBn": "ধারা ৭৫",
+      "offenseEn": "Driving vehicle without valid fitness certificate",
+      "offenseBn": "ফিটনেস সনদবিহীন বা মেয়াদোত্তীর্ণ গাড়ী চালানো",
+      "penaltyEn": "Fine up to ৳25,000 or up to 6 months imprisonment or both",
+      "penaltyBn": "অনধিক ২৫,০০০ টাকা অর্থদণ্ড বা অনধিক ৬ মাসের কারাদণ্ড বা উভয় দণ্ড",
+      "maxFine": 25000,
+      "category": "documents",
+      "demeritPoints": 1
+    },
+    {
+      "id": "tax_token",
+      "section": "Section 76",
+      "sectionBn": "ধারা ৭৬",
+      "offenseEn": "Operating vehicle without updated Tax Token",
+      "offenseBn": "হালনাগাদ ট্যাক্স টোকেন ব্যতীত যানবাহন চালানো",
+      "penaltyEn": "Fine up to ৳10,000",
+      "penaltyBn": "অনধিক ১০,০০০ টাকা অর্থদণ্ড",
+      "maxFine": 10000,
+      "category": "documents",
+      "demeritPoints": 0
+    },
+    {
+      "id": "traffic_signal",
+      "section": "Section 87",
+      "sectionBn": "ধারা ৮৭",
+      "offenseEn": "Disobeying traffic signals, red lights, or traffic police commands",
+      "offenseBn": "ট্রাফিক সিগন্যাল বা লাল বাতি অমান্য করা",
+      "penaltyEn": "Fine up to ৳10,000",
+      "penaltyBn": "অনধিক ১০,০০০ টাকা অর্থদণ্ড",
+      "maxFine": 10000,
+      "category": "traffic_rules",
+      "demeritPoints": 1
+    },
+    {
+      "id": "hydraulic_horn",
+      "section": "Section 88",
+      "sectionBn": "ধারা ৮৮",
+      "offenseEn": "Using prohibited hydraulic horns or excessively loud modified silencers",
+      "offenseBn": "নিষিদ্ধ হাইড্রোলিক হর্ন বা অতিরিক্ত শব্দ সৃষ্টিকারী মডিফাইড সাইলেন্সার ব্যবহার",
+      "penaltyEn": "Fine up to ৳10,000 or up to 3 months imprisonment or both",
+      "penaltyBn": "অনধিক ১০,০০০ টাকা অর্থদণ্ড বা অনধিক ৩ মাসের কারাদণ্ড বা উভয় দণ্ড",
+      "maxFine": 10000,
+      "category": "environment",
+      "demeritPoints": 0
+    }
+  ]
+}

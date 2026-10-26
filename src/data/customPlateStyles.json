@@ -1,0 +1,86 @@
+[
+  {
+    "id": "acrylic_3d_dholaikhal",
+    "nameEn": "Dholaikhal 3D Raised Laser Acrylic",
+    "nameBn": "ধোলাইখাল ৩ডি রেইজড লেজার এক্রিলিক প্লেট",
+    "category": "acrylic",
+    "image": "/plates/acrylic_3d.jpg",
+    "descriptionEn": "Heavy 8mm high-gloss black acrylic base with 3D raised laser-cut white acrylic Bangla characters and a circular O+ blood group badge.",
+    "descriptionBn": "৮ মিমি হাই-গ্লস কালো এক্রিলিক বেসের উপর ৩ মিমি লেজার-কাট সাদা এক্রিলিক হরফ এবং ও+ ব্লাড গ্রুপ ব্যাজ। ধোলাইখাল ও বাংলাবাজারে সর্বাধিক জনপ্রিয়।",
+    "priceEstimate": "৳৮০০ – ৳১,৫০০",
+    "popularIn": "ধোলাইখাল, বাংলাবাজার, মিরপুর ১০",
+    "tags": ["3D Acrylic", "Dholaikhal", "Superbike Rear/Front", "Blood Group O+"],
+    "presetConfig": {
+      "textureId": "matte_black",
+      "borderStyle": "screws",
+      "bloodGroup": "O+",
+      "badgeType": "blood_group",
+      "textColor": "#FFFFFF",
+      "subText": "DHAKA RIDER CLUB",
+      "fontFamily": "'Tiro Bangla', serif"
+    }
+  },
+  {
+    "id": "carbon_fiber_racing",
+    "nameEn": "Twill Carbon Fiber Racing Stencil (285x50mm)",
+    "nameBn": "কার্বন ফাইবার রেসিং স্টেনসিল (২৮৫x৫০ মিমি)",
+    "category": "carbon",
+    "image": "/plates/carbon_racing.jpg",
+    "descriptionEn": "Genuine twill carbon weave texture with crisp white registration lettering, red racing pinstripe frame, and A+ emergency marker. Perfect for sports bikes.",
+    "descriptionBn": "আসল কার্বন ফাইবার উইভ টেক্সচারের উপর লাল রেসিং পিনস্ট্রাইপ বর্ডার ও এ+ ব্লাড গ্রুপ। আর১৫, এমটি-১৫ ও জিক্সার বাইকের সামনের ফর্কে লাগানোর জন্য সেরা।",
+    "priceEstimate": "৳১,২০০ – ৳২,২০০",
+    "popularIn": "হাতিরঝিল রাইডার্স, চট্টগ্রাম জিইসি, উত্তরা",
+    "tags": ["Carbon Fiber", "285x50mm Front", "Racing Red Border", "Sports Bike"],
+    "presetConfig": {
+      "textureId": "carbon",
+      "borderStyle": "pinstripe",
+      "bloodGroup": "A+",
+      "badgeType": "blood_group",
+      "textColor": "#F8FAFC",
+      "subText": "TRACK EDITION BD",
+      "fontFamily": "'Hind Siliguri', sans-serif"
+    }
+  },
+  {
+    "id": "golden_mirror_ss",
+    "nameEn": "Royal Mirror Golden Stainless Steel (CNC Engraved)",
+    "nameBn": "রয়্যাল মিরর গোল্ডেন স্টেইনলেস স্টিল (সিএনসি এনগ্রেভড)",
+    "category": "metal_ss",
+    "image": "/plates/golden_ss.jpg",
+    "descriptionEn": "Rust-proof mirror-finish gold stainless steel sheet with intricate CNC laser-etched floral borders and deep black Bangla calligraphy.",
+    "descriptionBn": "মরিচারোধক মিরর ফিনিশ গোল্ডেন স্টেইনলেস স্টিল পাত। সিএনসি লেজার খোদাইকৃত নকশাদার বর্ডার ও গাঢ় কালো বাংলা হরফ। প্রিমিয়াম কার ও বাইকের জন্য।",
+    "priceEstimate": "৳১,৮০০ – ৳৩,৫০০",
+    "popularIn": "বাংলাবাজার সাইন মার্কেট, আগ্রাবাদ চট্টগ্রাম",
+    "tags": ["Golden Mirror SS", "CNC Engraving", "Luxury Car & Cruiser", "Rust Proof"],
+    "presetConfig": {
+      "textureId": "racing_yellow",
+      "borderStyle": "chamfered",
+      "bloodGroup": "B+",
+      "badgeType": "none",
+      "textColor": "#000000",
+      "subText": "ROYAL EDITION CHATTO",
+      "fontFamily": "'Tiro Bangla', serif"
+    }
+  },
+  {
+    "id": "sylhet_neon_glow",
+    "nameEn": "Sylhet Night Rider Neon LED Edge-Glow",
+    "nameBn": "সিলেট নাইট রাইডার নিয়ন এলইডি এজ-গ্লো প্লেট",
+    "category": "led",
+    "image": "/plates/neon_glow.jpg",
+    "descriptionEn": "Vibrant emerald green & cyan edge-lit LED glow plate with weather-sealed acrylic frame for nighttime visibility and aesthetic presence.",
+    "descriptionBn": "পান্না সবুজ ও সিয়ান নিয়ন এলইডি ব্যাক-লাইট এজ গ্লো। ওয়াটারপ্রুফ এক্রিলিক ক্যাসিং যা রাতের বেলা বাইকের সৌন্দর্য ও উপস্থিতি বহুগুণ বাড়িয়ে দেয়।",
+    "priceEstimate": "৳১,৫০০ – ৳২,৮০০",
+    "popularIn": "সিলেট সুবিদবাজার, ঢাকা গুলশান নাইট রান",
+    "tags": ["LED Glow", "Night Rider", "Neon Emerald", "Weatherproof"],
+    "presetConfig": {
+      "textureId": "cyber_neon",
+      "borderStyle": "chamfered",
+      "bloodGroup": "AB+",
+      "badgeType": "blood_group",
+      "textColor": "#34D399",
+      "subText": "SYLHET NIGHT RIDER",
+      "fontFamily": "'SolaimanLipi', sans-serif"
+    }
+  }
+]

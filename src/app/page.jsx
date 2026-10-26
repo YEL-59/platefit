@@ -212,6 +212,96 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Trending Bangladeshi Custom Plates Showcase Section */}
+      <section className="max-w-5xl mx-auto space-y-6 pt-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-white/10 pb-4">
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="p-1.5 bg-amber-500/20 text-amber-400 rounded-lg">
+                <Sparkles className="w-4 h-4" />
+              </span>
+              <h3 className="text-xl sm:text-2xl font-bold text-white">
+                জনপ্রিয় কাস্টম প্লেট কালেকশন (Market Styles)
+              </h3>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-400 mt-1">
+              ধোলাইখাল, বাংলাবাজার ও হাতিরঝিল বাইকারদের পছন্দের বাস্তবসম্মত ৩ডি এক্রিলিক, কার্বন ও গোল্ডেন মেটাল প্লেট
+            </p>
+          </div>
+
+          <Link
+            href="/custom-studio"
+            className="flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors"
+          >
+            <span>স্টুডিওতে কাস্টমাইজ করুন</span>
+            <ChevronRight className="w-4 h-4" />
+          </Link>
+        </div>
+
+        {/* 4 Cards Grid with Real Generated Images */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {[
+            {
+              title: "৩ডি লেজার এক্রিলিক",
+              sub: "ধোলাইখাল স্টাইল • 8mm",
+              img: "/plates/acrylic_3d.jpg",
+              price: "৳৮০০ - ৳১,৫০০",
+              tag: "Best Seller"
+            },
+            {
+              title: "কার্বন ফাইবার রেসিং",
+              sub: "স্পোর্টস বাইক ফর্ক • 285mm",
+              img: "/plates/carbon_racing.jpg",
+              price: "৳১,২০০ - ৳২,২০০",
+              tag: "Track Edition"
+            },
+            {
+              title: "রয়্যাল গোল্ডেন এসএস",
+              sub: "মিরর ফিনিশ • কার ও বাইক",
+              img: "/plates/golden_ss.jpg",
+              price: "৳১,৮০০ - ৳৩,৫০০",
+              tag: "Luxury Metal"
+            },
+            {
+              title: "নিয়ন এলইডি এজ-গ্লো",
+              sub: "নাইট রাইডার • ওয়াটারপ্রুফ",
+              img: "/plates/neon_glow.jpg",
+              price: "৳১,৫০০ - ৳২,৮০০",
+              tag: "Night Glow"
+            }
+          ].map((card, i) => (
+            <Link
+              key={i}
+              href="/custom-studio"
+              className="glass-panel rounded-2xl border border-white/10 overflow-hidden group hover:border-amber-400/50 transition-all duration-300 flex flex-col justify-between shadow-lg"
+            >
+              <div className="relative aspect-video w-full overflow-hidden bg-slate-950">
+                <img
+                  src={card.img}
+                  alt={card.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <span className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-black/70 backdrop-blur-md text-[10px] font-bold text-amber-400 border border-white/10">
+                  {card.tag}
+                </span>
+                <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-black/80 backdrop-blur-md text-[10px] font-mono text-white">
+                  {card.price}
+                </span>
+              </div>
+
+              <div className="p-3.5 space-y-1">
+                <h4 className="font-bold text-sm text-white group-hover:text-amber-300 transition-colors">
+                  {card.title}
+                </h4>
+                <p className="text-[11px] text-slate-400">
+                  {card.sub}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Safety & Fabricator Hub Quick Banner */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto pt-4">
         <Link

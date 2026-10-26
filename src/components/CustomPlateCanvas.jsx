@@ -12,6 +12,7 @@ export default function CustomPlateCanvas({
   badgeType,
   fontFamily,
   textColor,
+  uploadedLogo,
   onCanvasReady,
   plateWidthMm = 285,
   plateHeightMm = 50
@@ -91,8 +92,22 @@ export default function CustomPlateCanvas({
       ctx.fill();
     }
 
-    // 3. Left / Right Badges
-    const textStartX = badgeType && badgeType !== "none" ? width * 0.16 : 0;
+    // 3. Left / Right Badges & Uploaded Logo
+    const hasLeftGraphic = (badgeType && badgeType !== "none") || uploadedLogo;
+    const textStartX = hasLeftGraphic ? width * 0.16 : 0;
+
+    // Draw Uploaded Custom Logo
+    if (uploadedLogo) {
+      const img = new Image();
+      img.onload = () => {
+        const logoSize = height * 0.65;
+        const logoX = 25;
+        const logoY = (height - logoSize) / 2;
+        ctx.drawImage(img, logoX, logoY, logoSize, logoSize);
+        if (onCanvasReady) onCanvasReady(canvas);
+      };
+      img.src = uploadedLogo;
+    }
 
     // Draw Blood Group Pill on top right
     if (bloodGroup) {
@@ -138,7 +153,7 @@ export default function CustomPlateCanvas({
     if (onCanvasReady) {
       onCanvasReady(canvas);
     }
-  }, [texture, borderStyle, primaryText, subText, bloodGroup, badgeType, fontFamily, textColor, plateWidthMm, plateHeightMm]);
+  }, [texture, borderStyle, primaryText, subText, bloodGroup, badgeType, fontFamily, textColor, uploadedLogo, plateWidthMm, plateHeightMm]);
 
   return (
     <div className="w-full flex flex-col items-center justify-center p-4 bg-slate-950/90 rounded-2xl border border-white/10 shadow-2xl overflow-hidden">
